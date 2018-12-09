@@ -1,7 +1,9 @@
 # Jak shaver
 Tool to allow commands execution (and updates) on the RT5350F based "Jak USB Streaming Stick"
 
-With this toll you can execute commands on your streaming stick without cracking the housing open to expose the rx and tx tespoints.
+With this tool you can execute commands on your streaming stick without cracking the housing open to expose the rx and tx tespoints.
+
+**WARNING: Update your firmware with the bCODA Jak app BEFORE trying this (or you risk bricking your stick)**
 
 ## How does it work?
 
@@ -15,6 +17,9 @@ So to emulate this behaviour we have to start a http server and a tcp-server and
 
 
 ## How to use it?
+
+
+**WARNING: Update your firmware with the bCODA Jak app BEFORE trying this (or you risk bricking your stick)**
 
 Just place the command you want to execute on the stick in the [upgrade.txt] file and execute [shaver.py] while connected to the Jak wifi. (You might have to change the IP address in the python script to reflect your own)
 
